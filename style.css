@@ -1,0 +1,419 @@
+* {
+    padding:0%;
+    margin:0%;
+    text-decoration:none;
+    list-style-type:none;
+    font-weight:lighter;
+    font-family:monospace;
+    font-size:18px;
+    color:black;
+    box-sizing:border-box;
+    transition:0.1s;
+    transition-delay:0.1s;
+    transition-duration:0.2s;
+    transition-timing-function:ease-in-out;
+}
+
+
+
+body {
+    background:url(img/fundo-de-madeira-escuro-90298005.jpg) no-repeat;    
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+ul#ul-list-001 li{
+    display:inline-block;
+    margin:7px 10px 7px 10px;
+    text-align:center;
+}
+
+nav#menu-nav-bar {
+    border:3px solid black; 
+    border-bottom-left-radius:7px;
+    border-bottom-right-radius:7px;    
+    padding:7px;       
+    background-color:rgb(255, 208, 138);       
+    height:77px;    
+    margin:0px 0px 307px 0px;   
+}
+
+nav#menu-nav-bar a, h1, h2, h3, p, a{
+    color:black; 
+}
+
+ul#ul-list-001 {
+    display:flex;
+    justify-content:space-around;
+}
+
+a#list-food:hover {
+    border:0px solid gray;
+    border-radius:4px;
+    background-color:rgba(128, 128, 128, 0.329);   
+    transform:scale(1.7);      
+} 
+
+#ul-p-a-001 {
+    display:none;
+    background-color:whitesmoke;
+    border:2px solid black;
+    text-decoration:none;
+}
+
+#ul-p-a-001 > li{   
+    border-bottom:1px solid black;
+    width:77px;
+    margin:0px;
+}
+
+a#list-food:focus > #ul-p-a-001 {   
+    display:flex;
+    flex-direction:column;
+}
+
+p#p-1:hover {
+    background-color:rgba(128, 128, 128, 0.329);
+    border-radius:3px;
+}
+
+p#p-2:hover {
+    background-color:rgba(128, 128, 128, 0.329);
+    border-radius:3px;
+}
+
+p#p-3:hover {
+    background-color:rgba(128, 128, 128, 0.329);
+    border-radius:3px;
+}
+
+p#p-4:hover {
+    background-color:rgba(128, 128, 128, 0.329);
+    border-radius:3px;
+}
+
+p#p-5:hover {
+    background-color:rgba(128, 128, 128, 0.329);
+    border-radius:3px;
+}
+
+p#p-6:hover {
+    background-color:rgba(128, 128, 128, 0.329);
+    border-radius:3px;
+}
+
+p#p-7:hover {
+    background-color:rgba(128, 128, 128, 0.329);
+    border-radius:3px;
+}
+
+p#p-8:hover {
+    background-color:rgba(128, 128, 128, 0.329);
+    border-radius:3px;
+}
+
+p#p-9:hover {
+    background-color:rgba(128, 128, 128, 0.329);
+    border-radius:3px;
+}
+
+p.p-a {
+    transition:0.1s;
+    transition-delay:0.0s;
+    transition-duration:0.1s;
+    transition-timing-function:ease-in-out;
+}
+
+/*Layout-Template*/
+
+div.box {
+    border:3px solid white;
+    height:327px;
+    width:296px;
+    padding:7px 7px 7px 7px;
+    background-color:white;
+    margin:7px 7px 7px 7px;    
+}
+
+input.comprar-btn {
+    border:2px solid rgb(95, 155, 5);
+    background-color:rgb(95, 155, 5);
+    border-radius:3px;
+    box-shadow:2px 2px 5px 3px rgba(0, 0, 0, 0.397);
+    color:white;       
+}
+
+span.valueOf {
+    border:2px solid rgb(95, 155, 5);
+    background-color:rgb(95, 155, 5);
+    border-radius:3px;
+    box-shadow:2px 2px 5px 3px rgba(0, 0, 0, 0.397);
+    color:white; 
+}
+
+img.img-p {
+    border-radius:3px;
+    box-shadow:2px 2px 5px 3px rgba(0, 0, 0, 0.397);
+    margin-bottom:27px;
+}
+
+main#container {
+    display:grid;
+    grid-template-areas: 
+    "element1 element1 element2 element3"
+    "element1 element1 element4 element5"
+    "element6 element7 element8 element8"    
+    "element9 element10 element8 element8"
+    ;
+}
+
+div#box-1 {
+    grid-area:element1;
+    height:667px;
+    width:647px;
+    margin-left:17px;
+    align-items:center;
+}
+
+div#box-2 {
+    grid-area:element2;
+}
+
+div#box-3 {
+    grid-area:element3;
+}
+
+div#box-4 {
+    grid-area:element4;
+}
+
+div#box-5 {
+    grid-area:element5;
+}
+
+div#box-6 {
+    grid-area:element6;
+    margin-left:17px;
+}
+
+div#box-7 {
+    grid-area:element7;
+}
+
+div#box-8 {
+    grid-area:element8;
+    height:667px;
+    width:617px;
+}
+
+div#box-9{
+    grid-area:element9;
+    margin-left:17px;
+}
+
+div#box-10{
+    grid-area:element10;
+}
+
+img#img-001 {  
+    height:377px;
+    width:577px;
+    margin-left:25px;
+}
+
+img#img-008 {  
+    height:377px;
+    width:577px;
+    margin-left:7px;
+}
+
+h1.tittle-value {
+    border:2px solid black;
+    width:127px;
+    padding:7px 7px 7px 7px;
+    margin:7px 7px 7px 7px;
+    border-radius:3px;
+}
+
+a#btn-finelize {
+    border:2px solid black;
+    border-radius:3px;
+    background-color:yellowgreen;
+    color:white;
+    padding:3px 3px 3px 3px;
+    margin:7px 7px 7px 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive-Area*/
+
+@media(max-width:900px){
+
+    
+    nav#menu-nav-bar {
+        width:278px;
+        margin-bottom:153px;
+        margin-bottom:280px;
+    }
+
+    nav#menu-nav-bar h1, h2, h3, p, a, li {
+       font-size:12px;     
+    }
+
+    ul#list-food li {
+        text-decoration:none;
+    }
+
+    div.box {
+        border:3px solid white;
+        height:197px;
+        width:177px;
+        padding:7px 7px 7px 7px;
+        background-color:white;
+        margin:7px 7px 7px 50px;    
+    }
+    
+    input.comprar-btn {
+        border:2px solid rgb(95, 155, 5);
+        background-color:rgb(95, 155, 5);     
+        height:17px;
+        width:69px;           
+        font-size:11px;
+        border-radius:3px;
+        box-shadow:2px 2px 5px 3px rgba(0, 0, 0, 0.397);
+        color:white;       
+    }
+    
+    span.valueOf {
+        border:2px solid rgb(95, 155, 5);
+        background-color:rgb(95, 155, 5);
+        height:27px;
+        width:89px;        
+        font-size:11px;
+        border-radius:3px;
+        box-shadow:2px 2px 5px 3px rgba(0, 0, 0, 0.397);
+        color:white; 
+    }
+    
+    img.img-p {
+        border-radius:3px;
+        box-shadow:2px 2px 5px 3px rgba(0, 0, 0, 0.397);
+        margin-bottom:27px;
+        width:157px;
+        height:77px;
+    }
+    
+    main#container {
+        display:grid;
+        grid-template-areas: 
+        "element1"
+        "element2"
+        "element3"
+        "element4"
+        "element5"
+        "element6"
+        "element7"
+        "element8"
+        "element9"
+        "element10"        
+        ;
+    }
+    
+    div#box-1 {
+        grid-area:element1;        
+        border:3px solid white;
+        height:197px;
+        width:177px;
+        padding:7px 7px 7px 7px;
+        background-color:white;
+        margin:7px 7px 7px 50px;             
+    }
+
+    div#box-1 img {
+       width:157px;   
+       height:77px;   
+       margin:3px 3px 3px 3px;
+    }
+    
+    div#box-2 {
+        grid-area:element2;
+    }
+    
+    div#box-3 {
+        grid-area:element3;
+    }
+    
+    div#box-4 {
+        grid-area:element4;
+    }
+    
+    div#box-5 {
+        grid-area:element5;
+    }
+    
+    div#box-6 {
+        grid-area:element6;       
+        margin-left:50px;
+    }
+    
+    div#box-7 {
+        grid-area:element7;
+    }
+    
+    div#box-8 {
+        grid-area:element8;   
+        border:3px solid white;
+        height:197px;
+        width:177px;
+        padding:7px 7px 7px 7px;
+        background-color:white;
+        margin:7px 7px 7px  50px;               
+    }
+
+    div#box-8 img {
+       width:157px;  
+       height:77px;   
+       margin:3px 3px 3px 3px;   
+    }
+    
+    div#box-9{
+        grid-area:element9;  
+        margin-left:50px;      
+    }
+    
+    div#box-10{
+        grid-area:element10;
+        margin-left:50px;
+    }    
+    
+    h1.tittle-value {
+        border:2px solid black;
+        height:27px;
+        width:89px;        
+        padding:7px 7px 7px 7px;
+        margin:7px 7px 7px 7px;
+        border-radius:3px;
+        font-size:11px;
+    }
+    
+    a#btn-finelize {
+        border:2px solid black;
+        border-radius:3px;
+        background-color:yellowgreen;
+        color:white;       
+        padding:3px 3px 3px 3px;
+        margin:7px 7px 7px 7px;
+    }
+    
+}

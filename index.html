@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--<script src="terminal.js"></script>-->
+    <title>Site de Vendas</title>
+</head>
+<body>
+    <nav id="menu-nav-bar">
+        <ul id="ul-list-001">
+            <li>
+               <a href="#">Entrar em contato com o desesenvolvedor</a>
+            </li>           
+            <li>
+                <a id="list-food" href="#">Ver lista de pães
+                    <ul id="ul-p-a-001">
+                        <li><p class="p-a" id="p-1">Pão 1</p></li>
+                        <li><p class="p-a" id="p-2">Pão 2</p></li>
+                        <li><p class="p-a" id="p-3">Pão 3</p></li>
+                        <li><p class="p-a" id="p-4">Pão 4</p></li>
+                        <li><p class="p-a" id="p-5">Pão 5</p></li>
+                        <li><p class="p-a" id="p-6">Pão 6</p></li>
+                        <li><p class="p-a" id="p-7">Pão 7</p></li>
+                        <li><p class="p-a" id="p-8">Pão 8</p></li>
+                        <li><p class="p-a" id="p-9">Pão 9</p></li>
+                    </ul>  
+                </a>           
+            </li>
+        </ul>
+    </nav>
+    <main id="container">
+       <div class="box" id="box-1">
+            <img class="img-p" id="img-001" src="img/img1.jfif" alt="">          
+            <h1 class="tittle-value">
+                Pão Caseiro
+            </h1>
+            <input class="comprar-btn"  id="c-btn1" type="button" value="COMPRAR"> 
+            <span class="valueOf">50,99</span>   
+       </div>
+       <div class="box" id="box-2">
+            <img class="img-p" id="img-002" src="img/img1.jfif" alt="">  
+            <h1 class="tittle-value">
+                Pão Caseiro
+            </h1>
+            <input class="comprar-btn" id="c-btn2" type="button" value="COMPRAR">  
+            <span class="valueOf">50,99</span>  
+       </div>
+       <div class="box" id="box-3">
+            <img class="img-p" id="img-003" src="img/img1.jfif" alt="">  
+            <h1 class="tittle-value">
+                Pão Caseiro
+            </h1>
+            <input class="comprar-btn" id="c-btn3" type="button" value="COMPRAR"> 
+            <span class="valueOf">50,99</span>   
+       </div>
+       <div class="box" id="box-4">
+            <img class="img-p" id="img-004" src="img/img1.jfif" alt="">  
+            <h1 class="tittle-value">
+                Pão Caseiro
+            </h1>
+            <input class="comprar-btn" id="c-btn4" type="button" value="COMPRAR">  
+            <span class="valueOf">50,99</span>  
+       </div>
+       <div class="box" id="box-5">
+            <img  class="img-p"id="img-005" src="img/img1.jfif" alt="">  
+            <h1 class="tittle-value">
+                Pão Caseiro
+            </h1>
+            <input class="comprar-btn" id="c-btn5" type="button" value="COMPRAR">  
+            <span class="valueOf">50,99</span>  
+       </div>
+       <div class="box" id="box-6">
+            <img class="img-p" id="img-006" src="img/img1.jfif" alt="">  
+            <h1 class="tittle-value">
+                Pão Caseiro
+            </h1>
+            <input class="comprar-btn" id="c-btn6" type="button" value="COMPRAR">  
+            <span class="valueOf">50,99</span>  
+       </div>
+       <div class="box" id="box-7">
+            <img class="img-p" id="img-007" src="img/img1.jfif" alt="">  
+            <h1 class="tittle-value">
+                Pão Caseiro
+            </h1>
+            <input class="comprar-btn" id="c-btn7" type="button" value="COMPRAR">  
+            <span class="valueOf">50,99</span>  
+       </div>
+       <div class="box" id="box-8">
+            <img class="img-p" id="img-008" src="img/img1.jfif" alt="">  
+            <h1 class="tittle-value">
+                Pão Caseiro
+            </h1>
+            <input class="comprar-btn" id="c-btn8" type="button" value="COMPRAR"> 
+            <span class="valueOf">50,99</span>   
+       </div>
+       <div class="box" id="box-9">
+            <img class="img-p" id="img-009" src="img/img1.jfif" alt="">  
+            <h1 class="tittle-value">
+                Pão Caseiro
+            </h1>
+            <input class="comprar-btn" id="c-btn9" type="button" value="COMPRAR">
+            <span class="valueOf">50,99</span>    
+       </div>
+       <div class="box" id="box-10">
+        <img class="img-p" id="img-010" src="img/img1.jfif" alt="">  
+        <h1 class="tittle-value">
+            Pão Caseiro
+        </h1>
+        <input class="comprar-btn" id="c-btn10" type="button" value="COMPRAR">
+        <span class="valueOf">50,99</span>    
+   </div>
+    </header>   
+    <footer id="rodape-001">
+        <address>
+            <p>
+                <abbr title="Desenvolvedor do Site">Eliezer Felipe Souza Alegre</abbr>                
+            </p>
+            <strong>
+                <abbr title="Gmail do Desenvolvedor do Site">eliezersouzaalegre@gmail.com</abbr>
+            </strong>
+        </address>
+    </footer>
+    <script>
+    var body1 = window.document.querySelector("body");
+    var buttonc1 = window.document.querySelector("input#c-btn1");
+    buttonc1.addEventListener(`click`, compra1);
+
+    function compra1(){
+      var typefood = `Pão Caseiro`;
+      var food = 50.99;
+      var quantity = Number(prompt(`Digite a Quantidade de pães que Deseja comprar:`));
+      var food = quantity * food;
+      window.alert(`O valor total de Pães Será R$:${food.toFixed(2).replace(".", ",")}`);
+     /*1*/ if(food == 0.00){
+        window.alert(`Por favor Recomeçe a Compra, Você não colocou a quantidade miníma de Pães`);
+      }
+      /*1*/ else{
+      var name = prompt(`Digite seu Nome: `);
+      var addressMunicipality = prompt(`Digite o nome do seu Municipio: `);
+      var addressNeighborhood = prompt(`Digite o Nome do seu bairro: `);
+      var addressStreet = prompt(`Digite o Nome da sua Rua: `);
+      var addressNumber = prompt(`Digite o Número da sua casa: `);
+      var addressComplement = prompt(`Digite um Complemento da sua Casa: `);
+      var questionContinue = window.confirm(`Deseja Ir Para Proxíma etapa?`);
+
+   /*2*/ if(questionContinue == true){
+        body1.innerHTML = (`<a id="btn-finelize" href="https://wa.me/5511957580025?text=Pão:%20${typefood},%20Quantidade:${quantity},%20Valor%20Total:${food},%20Nome:${name},%20Municipio:${addressMunicipality},%20Bairro:${addressNeighborhood},%20Rua:${addressStreet},%20Número%20da%20Casa:${addressNumber},%20Complemento%20da%20Casa:${addressComplement}.">
+        Proxima etapa</a>`);  
+    }
+
+   /*2*/  else{
+        window.alert(`Ok, Cancelando Compra! ...`);
+    }   
+      }        
+      /*var compraTotal = new Compra(typefood, quantity, food, name, addressMunicipality, addressNeighborhood, addressStreet,
+      addresNumber, addressComplement);
+      function Compra(typefood, quantity, valuetotal, name, municipality, neighborhood, street, number,
+      complement){
+        this.pão = typefood;
+        this.Quantidade = quantity;
+        this.ValorTotal = valuetotal
+        this.Nome = name;
+        this.Municipio = municipality;
+        this.Bairro = neighborhood;
+        this.Rua = street;
+        this.NumeroDaCasa = number;
+        this.Complemento = complement;
+      }
+      window.alert(compraTotal);*/
+    }    
+    </script>
+</body>
+</html>
